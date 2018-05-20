@@ -14,9 +14,9 @@ namespace :greeting do
   
 end #namespace :greeting
 
-  task :environment do
-    require_relative './config/environment'
-  end #:environment
+task :environment do
+  require_relative './config/environment'
+end #:environment
 
 # DATABASE NAMESPACE #
 namespace :db do
